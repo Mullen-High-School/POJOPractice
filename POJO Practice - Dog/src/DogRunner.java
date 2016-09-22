@@ -9,7 +9,7 @@ public class DogRunner
 		kennel.add(new Dog(3, "Sprinkles"));
 		
 		System.out.println(kennel);
-
+		// a toString is required for this
 		System.out.println(kennel.get(0).getName());
 		System.out.println(kennel.get(1).getName());
 
